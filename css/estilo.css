@@ -1,50 +1,111 @@
-*{
-    margin: 0;
-    padding: 0;
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
-a{
-    list-style: none;
-    font-size: 3vw;
-    color: whitesmoke;
-    margin: 0.4vw;
-    padding: 0.4vw;}
-
+a {
+  list-style: none;
+  font-size: 3vw;
+  color: whitesmoke;
+  margin: 0.4vw;
+  padding: 0.4vw;
+}
 
 /*-------------- Fuentes */
 @font-face {
-    font-family: 'Nagoda';
-    /* Antes de descargar el archivo, le decimos al buscador
+  font-family: "Nagoda";
+  /* Antes de descargar el archivo, le decimos al buscador
     que intente buscar en local la fuente con nombre
     Cabin, Cabin Regular o Cabin-Regular */
-    src: url(../assets/Nagoda/Nagoda.woff) format('woff');
+  src: url(../marca/Tipografías/Nagoda/Nagoda.woff) format("woff");
+}
+
+h1,
+h2 {
+    font-size: 2em;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+}
+/* Modificar fuente de Trilce*/
+.trilce_name {
+  font-family: Nagoda, Arial, Helvetica, sans-serif;
+  font-stretch: semi-expanded;
+  font-size: 1.15rem;
+}
+
+body {
+  background: linear-gradient(100deg, #f2cbc4, #df859e);
+}
+
+header {
+  height: 5%;
+}
+
+#espada_aside {
+  size: 50%;
+}
+
+
+
+
+
+/*----------- ESTILO FOOTER */
+.footer{
+    background-image: url("/marca/desierto_azul_f.png");
+    background-repeat: no-repeat;
+    height: 25vw;
+    background-position: center;
+    background-size: 100vw;
+    
+    display: relative;
+
+    bottom: 0;
+}
+
+.footer h2{
+    color: #F3CAC4;
+    font-size: 1.4em;   
+    padding-top: 10%;
+    padding-left: 15%;
+}
+
+
+/*RESPONSIVE*/
+
+@media screen and (min-width:768px) {
+    h1,
+  h2 {
+    font-size: 3.5em;
   }
-
-
-h1, h2{
-
+  p {
+    font-size: 1.4em;
+  }
+  .trilce_name {
+    font-size: 2rem;
+  }
+  .footer h2{
+    font-size: 3.5em;
+    padding-top: 10%;
+    padding-left: 15%;
+}
 }
 
-p{
-    font-family:Nagoda, Arial, Helvetica, sans-serif;
-
+@media screen and (min-width:1200px) {
+    h1,
+    h2 {
+      font-size: 5em;
+    }
+    p {
+      font-size: 2em;}
+    .trilce_name {
+        font-size: 2.85rem;   
+      }
+    .footer h2{
+        font-size: 6em;
+        padding-top: 10%;
+        padding-left: 15%;
+    }
 }
-    /* Modificar fuente de Trilce*/
-.trilce_name{
-
-}
-
-body{
-    background:linear-gradient(100deg, #f2cbc4, #df859e);   
-}
-
-header{
-    height: 5%;
-}
-
-#espada_aside{
-   size: 50%
-   ;
-}
-
