@@ -11,12 +11,40 @@ a{
     margin: 0.4vw;
     padding: 0.4vw;}
 
+
+/*-------------- Fuentes */
+@font-face {
+    font-family: 'Nagoda';
+    /* Antes de descargar el archivo, le decimos al buscador
+    que intente buscar en local la fuente con nombre
+    Cabin, Cabin Regular o Cabin-Regular */
+    src: url(../assets/Nagoda/Nagoda.woff) format('woff');
+  }
+
+
+h1, h2{
+
+}
+
+p{
+    font-family:Nagoda, Arial, Helvetica, sans-serif;
+
+}
+    /* Modificar fuente de Trilce*/
+.trilce_name{
+
+}
+
 body{
-    background:linear-gradient(100deg, #f2cbc4, #df859e);
-  
+    background:linear-gradient(100deg, #f2cbc4, #df859e);   
+}
+
+header{
+    height: 5%;
 }
 
 #espada_aside{
-    position:relative;
-    height: 1%;
+   size: 50%
+   ;
 }
+
