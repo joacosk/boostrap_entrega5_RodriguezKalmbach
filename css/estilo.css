@@ -1,4 +1,22 @@
 *{
     margin: 0;
     padding: 0;
+
+}
+
+a{
+    list-style: none;
+    font-size: 3vw;
+    color: whitesmoke;
+    margin: 0.4vw;
+    padding: 0.4vw;}
+
+body{
+    background:linear-gradient(100deg, #f2cbc4, #df859e);
+  
+}
+
+#espada_aside{
+    position:relative;
+    height: 1%;
 }
