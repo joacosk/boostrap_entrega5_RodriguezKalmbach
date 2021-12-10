@@ -48,7 +48,9 @@ header {
   size: 50%;
 }
 
-
+#carousel{
+    height: 10px;
+}
 
 
 
@@ -61,7 +63,7 @@ header {
     background-size: 100vw;
     
     display: relative;
-
+    
     bottom: 0;
 }
 
